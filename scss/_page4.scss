@@ -1,0 +1,43 @@
+.page-4 h2 {
+	color:#536878;
+	font-size: 40px;
+}
+
+.page-4 img {
+	margin-left: -400px;
+	margin-bottom: -60px;
+	height: 800px;
+	width: 800px;
+    margin-top: 20px;
+}
+
+.page-4 {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.page-4 .text {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+
+.page-4 .text aside {
+	shape-outside: circle(50%);
+	background-color: #536878;
+	position: absolute;
+	top: 119px;
+	left: 20%;
+	margin: 16px;
+    font-size: 21px;
+    font-weight: bold;
+	height: 250px;
+	width: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1em;
+	text-align: center;
+	border-radius: 50%;
+	border: 5px solid #778899;
+}

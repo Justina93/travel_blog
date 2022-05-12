@@ -1,0 +1,39 @@
+.page-1 .text aside {
+	shape-outside: circle(50%);
+	float: right;
+	background-color: #fefefa;
+	position: relative;
+	top: -50%;
+	margin: 16px;
+	height: 160px;
+	width: 160px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1em;
+	text-align: center;
+	border-radius: 50%;
+	border: 5px solid #417dc1;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.page-1 .img-holder {
+	position: relative;
+}
+
+.page-1 .img-holder::after {
+	content: "";
+	width: 398px;
+	height: 920px;
+	background-color: #778899;
+	z-index: -5;
+	left: 17px;
+	top: calc(138% + 10em);
+	position: absolute;
+	border-radius: 0 0 10% 10%;
+}
+
+.page-1 img {
+	shape-outside: ellipse(580px 601px at 17% 136%);
+}
